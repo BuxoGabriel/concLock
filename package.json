@@ -1,0 +1,28 @@
+{
+  "name": "@buxogabe/conclock",
+  "version": "1.0.0",
+  "description": "A library for locking concurrently running promises and async functions.",
+  "main": "lib/index.js",
+  "types": "lib/",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuxoGabriel/concLock.git"
+  },
+  "keywords": [
+    "concurrency",
+    "lock"
+  ],
+  "author": "Gabriel Buxo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BuxoGabriel/concLock/issues"
+  },
+  "homepage": "https://github.com/BuxoGabriel/concLock#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2"
+  }
+}
